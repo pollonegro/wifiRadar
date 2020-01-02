@@ -1,14 +1,10 @@
 # wifiRadar
 Directional wifi antenna servo controlled
 
-
-[![Alt attribute text Here](https://drive.google.com/file/d/1Y-oReN5VIOwUd3E1AF7NThKpH0yJVDYY/view?usp=sharing)](https://drive.google.com/file/d/1Y-oReN5VIOwUd3E1AF7NThKpH0yJVDYY/view?usp=sharing)
-
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/IMG-20191230-WA0014.jpeg)
 
 
-
-
-
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/IMG-20191230-WA0012.jpeg)
 
 
 Needed:
