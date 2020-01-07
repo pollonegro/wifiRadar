@@ -1,10 +1,7 @@
 # wifiRadar      - EDITING - 
 Directional wifi antenna servo controlled
 
-![](https://github.com/pollonegro/wifiRadar/blob/master/img/IMG-20191230-WA0014.jpeg)
-
-
-![](https://github.com/pollonegro/wifiRadar/blob/master/img/IMG-20191230-WA0012.jpeg)
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadar.gif)
 
 
 Needed:
