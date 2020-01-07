@@ -36,10 +36,12 @@ Needed:
   https://www.amazon.es/gp/product/B07DX11WJJ/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1
 
 
+
 -------------------------------------------------------------------------------------------------
 TOTAL SPENT: 160,16 € (IN 1 SINGLE PAYMENT FOR LIFE, THERE IS NO BETTER RATE IN THE WHOLE WORLD)
 -------------------------------------------------------------------------------------------------
 7 - Eth cable and SSH conection
+
 6 - TIME !!!... and no fucking family.
 
 
