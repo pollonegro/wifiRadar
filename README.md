@@ -1,5 +1,11 @@
-# wifiRadar      - BETA - 
-Directional wifi antenna servo controlled
+# wifiRadar      version 1
+"Directional wifi antenna servo controlled on a raspberry pi3 B+"
+
+The device scans all the wifi targets within reach, saves the best orientation for each one of them and launch airgeddon, wifite2 (auto scripts) or perform a manual wifi audit.
+
+The control of the device is done through ssh connected by ethernet, although it would be possible to have the ssh service through wifi, using the raspberry´s integrated one.
+
+
 
 Beta concept:
 
@@ -15,16 +21,15 @@ axis_testing_movement.py - Just check servo mobility.
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/axis-testing-movement.gif)
 
 
-
-
-
 10x_servo_testing.py - Check fast movement grades by 10x home made scale...
 
 
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/10x-servo-testing.gif)
 
 
-
+TODO:
+-----
+ - 4G GSM implementation module.
 
 
 Material needed:
