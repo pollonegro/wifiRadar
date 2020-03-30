@@ -8,6 +8,8 @@ Beta concept:
 
 
 Scripts videos:
+---------------
+axis_testing_movement.py - Just check servo mobility.
 
 
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/axis-testing-movement.gif)
@@ -15,7 +17,7 @@ Scripts videos:
 
 
 
-Scripts videos:
+10x_servo_testing.py - Check fast movement grades by 10x home made scale...
 
 
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/10x-servo-testing.gif)
