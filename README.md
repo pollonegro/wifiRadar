@@ -1,6 +1,11 @@
 # wifiRadar      - BETA - 
 Directional wifi antenna servo controlled
 
+Beta concept:
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadarv2.gif)
+
+
+First concept:
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadar.gif)
 
 
