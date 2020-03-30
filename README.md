@@ -12,6 +12,10 @@ Beta concept:
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadarv2.gif)
 
 
+Construction plain:
+
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/plain.png)
+
 
 Scripts videos:
 ---------------
