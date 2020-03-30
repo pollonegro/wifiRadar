@@ -75,8 +75,7 @@ TOTAL SPENT: 160,16 € (IN 1 SINGLE PAYMENT FOR LIFE, THERE IS NO BETTER RATE I
 -------------------------------------------------------------------------------------------------
 7 - Eth cable and SSH conection
 
-6 - TIME !!!... and no fucking family.
-
+6 - TIME !!!
 
   
   
