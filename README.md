@@ -17,6 +17,7 @@ axis_testing_movement.py - Just check servo mobility.
 
 
 
+
 10x_servo_testing.py - Check fast movement grades by 10x home made scale...
 
 
@@ -24,13 +25,10 @@ axis_testing_movement.py - Just check servo mobility.
 
 
 
+
+
+Material needed:
 ----------------------------------
-First concept:
-
-![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadar.gif)
-
-
-Needed:
 
 1 - Raspberry Pi 3B+ (Kali Linux 128GB SD card) - 35,30 € + 22,70 € = 58 €
 
