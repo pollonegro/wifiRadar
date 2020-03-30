@@ -1,4 +1,4 @@
-# wifiRadar      - EDITING - 
+# wifiRadar      - BETA - 
 Directional wifi antenna servo controlled
 
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadar.gif)
