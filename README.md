@@ -10,10 +10,15 @@ Beta concept:
 Scripts videos:
 
 
-![](https://github.com/pollonegro/wifiRadar/blob/master/img/axis_testing_movement.mp4)
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/axis-testing-movement.gif)
 
 
 
+
+Scripts videos:
+
+
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/10x-servo-testing.gif)
 
 
 
