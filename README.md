@@ -11,9 +11,13 @@ Beta concept:
 
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadarv2.gif)
 
-Manual Control.py:
+Manual Control:
 
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/manual_control.png)
+
+servoBerry.py:
+
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/servoBerry.png)
 
 Android App - wifiRadar.apk:
 
