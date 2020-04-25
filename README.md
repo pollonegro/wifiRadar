@@ -46,6 +46,7 @@ axis_testing_movement.py - Just check servo mobility.
 TODO:
 -----
  - 4G GSM implementation module.
+ - Batteries and solar charging...
 
 
 Material needed:
@@ -83,7 +84,7 @@ Material needed:
 
 
 -------------------------------------------------------------------------------------------------
-TOTAL SPENT: 160,16 € (IN 1 SINGLE PAYMENT FOR LIFE, THERE IS NO BETTER RATE IN THE WHOLE WORLD)
+Total: 160,16 € 
 -------------------------------------------------------------------------------------------------
 7 - Eth cable and SSH conection
 
