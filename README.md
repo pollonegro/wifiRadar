@@ -12,6 +12,18 @@ Beta concept:
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadarv2.gif)
 
 
+Android App - wifiRadar.apk:
+
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadarAPK_1.png)
+
+wifiRadar.apk SSH Connection:
+
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadarSSH_Logcat_1.png)
+
+wifiRadar.apk DASHBOARD and control pad:
+
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadarSCAN_Wifis_1.png)
+
 Construction plain:
 
 ![](https://github.com/pollonegro/wifiRadar/blob/master/img/plain.png)
