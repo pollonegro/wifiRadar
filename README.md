@@ -1,4 +1,4 @@
-# wifiRadar      version 1
+# wifiRadar      BETA
 "Directional wifi antenna servo controlled on a raspberry pi3 B+"
 
 The device scans all the wifi targets within reach, saves the best orientation for each one of them and launch airgeddon, wifite2 (auto scripts) or perform a manual wifi audit.
