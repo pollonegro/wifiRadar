@@ -17,7 +17,6 @@ grade = 3
 
 
 def on_press(key):
-	#print(' [-] Tecla liberada: ' + str(key))
 	if str(key) == "Key.left":
 		print(" [<] Moviendo izquierda...")
 		print(listvar[1])
@@ -87,7 +86,7 @@ def escuchar():
  
 def ventana():
     master = Tk()
-    w = Label(master, text="\n" + "\n" + "\n" + "\n" + "Control manual de la torreta, debes pulsar las teclas de direccion con esta ventana activa." + "\n" + "\n" + "\n" + "\n")
+    w = Label(master, text="\n" + "\n" + "\n" + "\n" + "MANUAL CONTROL, must press keyboard arrows within this window." + "\n" + "\n" + "\n" + "\n")
     w.pack()
     mainloop()
  
