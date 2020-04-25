@@ -1,0 +1,6 @@
+SSID                SIGNAL  BSSID
+ORANGE              100     5C:DC:96:EC:C2:55
+CASA                62      D0:60:8C:10:2A:C0
+TmDigital_B14E03    55      00:E0:4C:B1:4E:04
+BANDAWIFI_EA42      42      98:DA:C4:35:D7:E4
+pepephone_ADSLRR9F  39      04:D4:C4:2D:D3:E0
