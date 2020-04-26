@@ -3,10 +3,12 @@ package com.android.wifiradar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.jcraft.jsch.ChannelExec;
 import com.jcraft.jsch.JSch;
@@ -23,28 +25,36 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ip = (EditText)findViewById(R.id.ip_text);
+        port = (EditText)findViewById(R.id.port_text);
+        user = (EditText)findViewById(R.id.user_text);
+        pass = (EditText)findViewById(R.id.pass_text);
     }
 
 
     public void goControls(View v){
+        final String finalIp = ip.getText().toString();
+        final String finalport = port.getText().toString();
+        final String finalUser = user.getText().toString();
+        final String finalpass = pass.getText().toString();
+
+
+
         new AsyncTask<Integer, Void, Void>(){
             @Override
             protected Void doInBackground(Integer... params) {
                 try {
-                    executeRemoteCommand("root", "toor","192.168.1.111", 22);
+                    if (executeRemoteCommand(finalUser, finalpass,finalIp, Integer.parseInt(finalport))){
 
-                    FragNets fragNet = FragNets.newInstance("","");
-                    FragControls fragControl = FragControls.newInstance("","");
+                        FragControls fragControl = FragControls.newInstance(finalIp,finalport,finalUser,finalpass);
+                        getSupportFragmentManager().beginTransaction()
+                                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+                                .add(R.id.frame_controls, fragControl)
+                                .commit();
+                    }
 
-                    getSupportFragmentManager().beginTransaction()
-                            .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
-                            .replace(R.id.frame_nets, fragNet)
-                            .commit();
 
-                    getSupportFragmentManager().beginTransaction()
-                            .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
-                            .replace(R.id.frame_controls, fragControl)
-                            .commit();
 
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -54,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         }.execute(1);
     }
 
-    public static String executeRemoteCommand(String username,String password,String hostname,int port)
+    public static boolean executeRemoteCommand(String username,String password,String hostname,int port)
             throws Exception {
         JSch jsch = new JSch();
         Session session = jsch.getSession(username, hostname, port);
@@ -67,17 +77,12 @@ public class MainActivity extends AppCompatActivity {
 
         session.connect();
 
-        // SSH Channel
-        ChannelExec channelssh = (ChannelExec)
-                session.openChannel("exec");
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        channelssh.setOutputStream(baos);
-
-        // Execute command
-        channelssh.setCommand("python3 /root/SCRIPTS/testOverSSH.py");
-        channelssh.connect();
-        channelssh.disconnect();
-
-        return baos.toString();
+        if (session.isConnected()){
+            session.disconnect();
+            return true;
+        }else{
+            return false;
+        }
     }
+
 }

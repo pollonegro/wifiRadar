@@ -11,19 +11,20 @@
     <TextView
         android:id="@+id/wifi_id"
         android:layout_width="0dp"
-        android:layout_weight="0.4"
+        android:layout_weight="0.5"
         android:layout_height="wrap_content"
         android:text="ID"></TextView>
     <TextView
         android:id="@+id/wifi_name"
         android:layout_width="0dp"
-        android:layout_weight="0.4"
+        android:layout_weight="0.35"
         android:layout_height="wrap_content"
         android:text="Name"></TextView>
     <TextView
+        android:textAlignment="viewEnd"
         android:id="@+id/wifi_str"
         android:layout_width="0dp"
-        android:layout_weight="0.2"
+        android:layout_weight="0.15"
         android:layout_height="wrap_content"
         android:text="Strenght"></TextView>
 

@@ -79,6 +79,10 @@ public class FragNets extends Fragment {
         }
 
 
+
+
+
+
         return v;
     }
 }

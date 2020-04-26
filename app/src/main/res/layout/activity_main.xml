@@ -30,7 +30,7 @@
                 android:text="IP" />
 
             <EditText
-                android:id="@+id/editText1"
+                android:id="@+id/ip_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
@@ -53,7 +53,7 @@
                 android:text="PORT" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/port_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
@@ -76,7 +76,7 @@
                 android:text="USER" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/user_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
@@ -99,7 +99,7 @@
                 android:text="PASS" />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/pass_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
@@ -116,24 +116,7 @@
             android:text="Connect" />
     </LinearLayout>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.58" />
 
-
-    <FrameLayout
-        android:id="@+id/frame_nets"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </FrameLayout>
     <FrameLayout
         android:id="@+id/frame_controls"
         android:layout_width="match_parent"
@@ -141,7 +124,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline">
+        app:layout_constraintTop_toTopOf="parent">
 
     </FrameLayout>
 

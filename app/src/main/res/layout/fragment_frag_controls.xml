@@ -11,38 +11,77 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyler_nets"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="3dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/butUp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp" />
+
+            <SeekBar
+                android:id="@+id/seekBarHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:min="10"
+                android:progress="50" />
+
+        </LinearLayout>
+
+
+
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/butUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="up"
-            app:layout_constraintBottom_toTopOf="@+id/button4"
+            android:onClick="onPadPress"
+            app:layout_constraintBottom_toTopOf="@+id/buttonLeft"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttonRight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="right"
-            app:layout_constraintBottom_toTopOf="@+id/button5"
+            app:layout_constraintBottom_toTopOf="@+id/buttonDown"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button4" />
+            app:layout_constraintStart_toEndOf="@+id/buttonLeft" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/buttonLeft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="left"
-            app:layout_constraintBottom_toTopOf="@+id/button5"
-            app:layout_constraintEnd_toStartOf="@+id/button3"
+            app:layout_constraintBottom_toTopOf="@+id/buttonDown"
+            app:layout_constraintEnd_toStartOf="@+id/buttonRight"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/buttonDown"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="down"
