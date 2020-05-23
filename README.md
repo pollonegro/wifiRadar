@@ -1,11 +1,15 @@
-# wifiRadar      BETA
+# wifiRadar
 "Directional wifi antenna servo controlled on a raspberry pi3 B+"
+
+Manual control and auto position implemented.
 
 The device scans all the wifi targets within reach, saves the best orientation for each one of them and launch airgeddon, wifite2 (auto scripts) or perform a manual wifi audit.
 
 The control of the device is done through ssh connected by ethernet, although it would be possible to have the ssh service through wifi, using the raspberry´s integrated one.
 
+Manual control operating:
 
+![](https://github.com/pollonegro/wifiRadar/blob/master/img/video_poc.mp4)
 
 Beta concept:
 
