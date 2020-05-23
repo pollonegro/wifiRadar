@@ -9,7 +9,7 @@ The control of the device is done through ssh connected by ethernet, although it
 
 Manual control operating:
 
-![](https://github.com/pollonegro/wifiRadar/blob/master/img/video_poc.mp4)
+![](https://drive.google.com/open?id=16rxtd0ULNdcKnT9j9yu3pxS73mf6YFDa)
 
 Beta concept:
 
