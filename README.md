@@ -9,7 +9,7 @@ The control of the device is done through ssh connected by ethernet, although it
 
 Manual control operating:
 
-![](https://drive.google.com/file/d/16rxtd0ULNdcKnT9j9yu3pxS73mf6YFDa/view?usp=sharing)
+![](https://drive.google.com/file/d/16rxtd0ULNdcKnT9j9yu3pxS73mf6YFDa/view)
 
 
 Beta concept:
