@@ -9,7 +9,7 @@ The control of the device is done through ssh connected by ethernet, although it
 
 Manual control operating:
 
-[![Control manual.py]()](https://www.youtube.com/watch?v=uJgEvZFIO1M)
+[![Control manual.py](https://github.com/pollonegro/wifiRadar/blob/master/img/wifiRadarvideoMain.png)](https://www.youtube.com/watch?v=uJgEvZFIO1M)
 
 Beta concept:
 
